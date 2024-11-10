@@ -1,0 +1,19 @@
+let titulo = document.querySelector('h1');
+titulo.innerHTML = 'Hora do desafio';
+
+function conferirClique() {
+    console.log('Botão clicado');
+}
+function mostrarTexto() {
+    alert('Eu amo JS');
+}
+function pergunte() {
+    let cidade = prompt('Diga uma cidade brasileira');
+    alert (`Estive em ${cidade} e lembrei de você!`);
+    }
+function someNumeros() {
+    let valor1 = parseInt(prompt('Escolha um número'));
+    let valor2 = parseInt(prompt('Escolha mais um número para a soma'));
+    let resultado = valor1 + valor2
+    alert(`A soma de ${valor1} e ${valor2} é ${resultado}`); 
+}
